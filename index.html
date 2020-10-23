@@ -17,7 +17,7 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/header.scss">
+  <link rel="stylesheet" href="css/header.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -26,19 +26,19 @@
 
 
   <!-- Add your site or application content here -->
-  <div class="wrapper">
-    <input type="checkbox" id="checkbox" class="wrapper-checkbox">
-    <label for="checkbox" class="wrapper-button">
-        <span class="wrapper-button-line"></span>
-        <span class="wrapper-button-line"></span>
-        <span class="wrapper-button-line"></span>
+  <div class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
     </label>
-    <div class="wrapper-menu">
-      <a href="#" class="wrapper-menu-link">Главная</a>
-      <a href="#" class="wrapper-menu-link">Контакты</a>
-      <a href="#" class="wrapper-menu-link">Проекты</a>
-      <a href="#" class="wrapper-menu-link">Развлечься</a>
-    </div>
+
+    <ul class="menu__box">
+      <li><a class="menu__item" href="#">Главная</a></li>
+			<li><a class="menu__item" href="#">Проекты</a></li>
+			<li><a class="menu__item" href="#">Команда</a></li>
+			<li><a class="menu__item" href="#">Блог</a></li>
+			<li><a class="menu__item" href="#">Контакты</a></li>
+    </ul>
   </div>
   <div class="header-line">
       <img style="margin-right: 10%" src="img/glitch_2020-10-23_15-52-45.gif" width="55%" alt="info">
