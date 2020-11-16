@@ -138,3 +138,10 @@ label.menu__btn{
   display: flex;
   justify-content: flex-end;
 }
+
+.lightheader{
+  height: 3px;
+  width: 100%;
+  background-color: black;
+}
+
