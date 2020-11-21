@@ -16,7 +16,9 @@ html {
   font-size: 1em;
   line-height: 1.4;
 }
-
+body{
+  margin: 0 0 0 0;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -259,4 +261,9 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
+}
+
+h1{
+  font-size: 45px;
+  text-align: center;
 }
