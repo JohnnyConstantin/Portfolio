@@ -68,3 +68,8 @@ section .container h2 span{
 
   }
 }
+
+.projs{
+  display: flex;
+
+}
