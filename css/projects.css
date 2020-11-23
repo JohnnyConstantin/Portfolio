@@ -3,8 +3,6 @@ body{
   margin: 0 0 0 0;
   padding: 0;
   min-height: 100vh;
-  justify-content: center;
-  align-items: center;
 }
 
 .projs img{
@@ -22,9 +20,8 @@ body{
 }
 
 .section .container{
+  left: 2%;
   position:relative;
-  left: 55%;
-  transform: translate(-50%, 0%);
 }
 
 .section .container h2{
@@ -77,7 +74,7 @@ body{
 }
 
 .projs{
-  margin: 100px 0 100px 0;
+  margin: 50px 0 50px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -122,6 +119,11 @@ body{
   justify-content: center;
   align-items: center;
   z-index: 1;
+  transform: translateY(100px);
+}
+
+.cont .card:hover .face.face1{
+  transform: translateY(0px);
 }
 
 .cont .card .face.face2{
@@ -132,8 +134,14 @@ body{
   align-items: center;
   padding: 20px;
   box-sizing: border-box;
-  box-shadow: 0 20px 50px rgba(199, 194, 201, 0.3);
+  box-shadow: 0 10px 20px rgba(199, 194, 201, 0.2);
+  transform: translateY(-100px);
 }
+
+.cont .card:hover .face.face2{
+  transform: translateY(0px);
+}
+
 
 .cont .card .face.face2 .contant p{
   margin: 0;
