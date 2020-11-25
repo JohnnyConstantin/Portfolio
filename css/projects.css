@@ -114,7 +114,7 @@ body{
   justify-content: center;
   align-items: center;
   z-index: 1;
-  transform: translateY(100px);
+  transform: translateY(50%);
 }
 
 .cont .card:hover .face.face1{
@@ -131,7 +131,7 @@ body{
   padding: 20px;
   box-sizing: border-box;
   box-shadow: 0 10px 20px rgba(199, 194, 201, 0.2);
-  transform: translateY(-100px);
+  transform: translateY(-50%);
 }
 
 .cont .card:hover .face.face2{
@@ -161,8 +161,135 @@ body{
   cursor: pointer;
 }
 
-@media screen and (max-width: 508px){
-  .section{
+@media screen and (max-width: 1100px){
+  .cont .card .face{
+  width: 255px;
+  height: 150px;
+  transition: 0.5s;
+}
+  .projs img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .projs{
+  margin: 10px 0 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont {
+  position: relative;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+  .cont .card .face.face1 .contant h3 {
+  margin: 1px 0 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.cont .card .face.face2 .contant a{
+  margin: 2px 0 0;
+  display: inline-block;
+
+  text-decoration: none;
+  font-weight: 900;
+  color: #333;
+  padding: 5px;
+  border: 1px solid #333;
+}
+}
+
+@media screen and (max-width: 835px){
+  .cont .card .face{
+  width: 150px;
+  height: 150px;
+  transition: 0.5s;
+}
+  .projs img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .projs{
+  margin: 5px 0 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont {
+  position: relative;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+  .cont .card .face.face1 .contant h3 {
+  margin: 1px 0 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.cont .card .face.face2 .contant a{
+  margin: 2px 0 0;
+  display: inline-block;
+
+  text-decoration: none;
+  font-weight: 900;
+  color: #333;
+  padding: 5px;
+  border: 1px solid #333;
+}
+}
+
+@media screen and (max-width: 500px) {
+  .cont .card .face {
+    width: 120px;
+    height: 100px;
+    transition: 0.5s;
+  }
+
+  .projs img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .projs {
+    margin: 3px 0 3px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cont {
     position: relative;
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cont .card .face.face1 .contant h3 {
+    margin: 0 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+
+  .cont .card .face.face2 .contant a {
+    margin: 0 0 0;
+    display: inline-block;
+
+    text-decoration: none;
+    font-weight: 300;
+    color: #333;
+    padding: 2px;
+    border: 1px solid #333;
   }
 }
