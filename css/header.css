@@ -29,6 +29,7 @@
 #menu__toggle:checked ~ .menu__box {
   visibility: visible;
   left: 0;
+  height: 200%;
 }
 
 #menu__toggle:checked ~ .hamburger-menu{
@@ -149,6 +150,10 @@ label.menu__btn{
 @media screen and (max-width: 1279px){
   .gifka{
     visibility: hidden;
+  }
+
+  .menu__box{
+    height: 500%;
   }
 
   .section__bg:before{
