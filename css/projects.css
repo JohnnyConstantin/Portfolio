@@ -124,6 +124,7 @@ body{
 
 .cont .card:hover .face.face1{
   transform: translateY(0px);
+  background-color: darkgreen;
 }
 
 .cont .card .face.face2{

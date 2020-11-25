@@ -91,8 +91,8 @@ label.menu__btn{
   padding: 80px 0;
 
   list-style: none;
-
-  background-color: #ECEFF1;
+  background-color: black;
+  border: green 2px solid;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
 
   transition-duration: .25s;
@@ -102,7 +102,7 @@ label.menu__btn{
   display: block;
   padding: 12px 24px;
 
-  color: #333;
+  color: white;
 
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -111,9 +111,10 @@ label.menu__btn{
   text-decoration: none;
 
   transition-duration: .25s;
+  cursor: pointer;
 }
 .menu__item:hover {
-  background-color: #CFD8DC;
+  background-color: rgba(180, 182, 180, 0.69);
 }
 .section__bg{
   position:absolute;
