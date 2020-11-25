@@ -4,23 +4,21 @@ body{
   overflow: hidden;
 }
 
-section{
+.section{
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: auto;
   width: 100%;
   background: black;
 }
 
-section .container{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.section .container{
+  left: 2%;
+  position:relative;
 }
 
-section .container h2{
+.section .container h2{
   position: relative;
   width: 100%;
   text-align: center;
@@ -32,21 +30,21 @@ section .container h2{
   letter-spacing: 4px;
 }
 
-section .container h2 span.text1{
+.section .container h2 span.text1{
   animation-delay: 0.5s;
   filter: hue-rotate(225deg);
 }
-section .container h2 span.text2{
+.section .container h2 span.text2{
   animation-delay: 1s;
   filter: hue-rotate(225deg);
 }
 
-section .container h2 span.text3{
+.section .container h2 span.text3{
   animation-delay: 1.5s;
   filter: hue-rotate(180deg);
 }
 
-section .container h2 span{
+.section .container h2 span{
   position: relative;
   z-index: 1;
   color: #fff;
