@@ -1,6 +1,6 @@
 body {
   margin: 0 0 0 0;
-  background: linear-gradient(0deg, black 60%, whitesmoke);
+  background:  black;
 }
 
 .infobody{
@@ -11,7 +11,7 @@ body {
 }
 
 .shadow{
-  position: relative;
+  position: absolute;
   margin: 50px;
   width: 100%;
   height: 250px;
