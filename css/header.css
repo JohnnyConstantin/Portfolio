@@ -8,7 +8,7 @@
 }
 
 .hamburger-menu{
-  height: 0px;
+  height: 0;
 }
 
 #menu__toggle {
@@ -29,7 +29,7 @@
 #menu__toggle:checked ~ .menu__box {
   visibility: visible;
   left: 0;
-  height: 200%;
+  height: 100vh;
 }
 
 #menu__toggle:checked ~ .hamburger-menu{
@@ -86,7 +86,7 @@ label.menu__btn{
   left: -100%;
 
   width: 300px;
-  height: 100%;
+  height: border-box;
 
   margin: 0;
   padding: 80px 0;
@@ -152,9 +152,11 @@ label.menu__btn{
     visibility: hidden;
   }
 
-  .menu__box{
-    height: 200%;
-  }
+  #menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+  height: 100vh;
+}
 
   .section__bg:before{
     content: '';

@@ -47,12 +47,6 @@ body {
   }
 }
 
-#menu__toggle:checked ~ .menu__box {
-  visibility: visible;
-  left: 0;
-  height: 100%;
-}
-
 @media screen and (max-width: 1177px){
   .infobody{
   justify-content: center;

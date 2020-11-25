@@ -9,17 +9,14 @@ body{
 }
 
 .section{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: auto;
   width: 100%;
   background: black;
 }
 
 .section .container{
-  left: 2%;
   position:relative;
+  overflow: hidden;
 }
 
 .section .container h2{
@@ -162,4 +159,10 @@ body{
   color: white;
   background-color: #333;
   cursor: pointer;
+}
+
+@media screen and (max-width: 508px){
+  .section{
+    position: relative;
+  }
 }
