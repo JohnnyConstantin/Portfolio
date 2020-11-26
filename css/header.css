@@ -210,7 +210,8 @@ label.menu__btn{
 
 @media screen and (max-width: 624px){
   .menu__item {
-    font-size: 15px;
-    padding: 12px 10px;
+    padding: 5px 5px;
+    height: 18px;
+    font-size: 18px;
   }
 }
