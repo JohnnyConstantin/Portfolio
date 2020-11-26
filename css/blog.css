@@ -73,14 +73,14 @@ body{
   align-items: center;
 }
 
-ul{
+.blogs ul{
   position: relative;
   display: flex;
   transform-style: preserve-3d;
   transform: rotate(-25deg) skew(25deg);
 }
 
-ul li{
+.blogs ul li{
   position: relative;
   list-style: none;
   width: 110px;
@@ -88,7 +88,7 @@ ul li{
   margin: 0 10px;
 }
 
-ul li:before{
+.blogs ul li:before{
   content: '';
   position: absolute;
   bottom: -10px;
@@ -100,7 +100,7 @@ ul li:before{
   transform: skewX(-41deg);
 }
 
-ul li:after{
+.blogs ul li:after{
   content: '';
   position: absolute;
   top: 0;
@@ -112,7 +112,7 @@ ul li:after{
   transform: skewY(-49deg);
 }
 
-ul li span{
+.blogs ul li span{
   position: absolute;
   left: 0;
   top: 0;
@@ -127,63 +127,63 @@ ul li span{
   transition: 0.2s;
 }
 
-ul li:hover span{
+.blogs ul li:hover span{
   z-index: 1000;
   transition: 0.5s;
   color: #fff;
   box-shadow: -1px 1px 1px rgba(0,0,0,0.05);
 }
 
-ul li:hover span:nth-child(5){
+.blogs ul li:hover span:nth-child(5){
   transform: translate(40px, -40px);
   opacity: 1;
 }
-ul li:hover span:nth-child(4){
+.blogs ul li:hover span:nth-child(4){
   transform: translate(30px, -30px);
   opacity: 0.8;
 }
-ul li:hover span:nth-child(3){
+.blogs ul li:hover span:nth-child(3){
   transform: translate(20px, -20px);
   opacity: 0.6;
 }
-ul li:hover span:nth-child(2){
+.blogs ul li:hover span:nth-child(2){
   transform: translate(10px, -10px);
   opacity: 0.4;
 }
-ul li:hover span:nth-child(1){
+.blogs ul li:hover span:nth-child(1){
   transform: translate(0px, -0px);
   opacity: 0.2;
 }
 
-ul li:nth-child(1):hover span{
+.blogs ul li:nth-child(1):hover span{
   background: rgba(255,255,255,0.2);
 }
 
-ul li:nth-child(2):hover span{
+.blogs ul li:nth-child(2):hover span{
   background: #e4405f;
 }
 
-ul li:nth-child(3):hover span{
+.blogs ul li:nth-child(3):hover span{
   background: #0077b5;
 }
 
-ul li:nth-child(4):hover span{
+.blogs ul li:nth-child(4):hover span{
 
   background: #25D366;
 }
-ul li:nth-child(5):hover span{
+.blogs ul li:nth-child(5):hover span{
   background: rgba(255,255,255,0.2);
 }
 
-ul li:nth-child(6):hover span{
+.blogs ul li:nth-child(6):hover span{
   background: #e4405f;
 }
 
-ul li:nth-child(7):hover span{
+.blogs ul li:nth-child(7):hover span{
   background: #0077b5;
 }
 
-ul li:nth-child(8):hover span{
+.blogs ul li:nth-child(8):hover span{
 
   background: #25D366;
 }
