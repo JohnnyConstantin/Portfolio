@@ -58,9 +58,9 @@ body {
 
 .shadow{
   position: relative;
-  margin: 20px;
+  margin: 15px;
   width: 100%;
-  height: 250px;
+  height: 380px;
   background: linear-gradient(0deg,#000,#262626);
 }
 }
