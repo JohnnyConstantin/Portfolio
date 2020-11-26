@@ -57,7 +57,7 @@
      <div class="face face2">
         <div class="contant">
          <p>Cosmetic center site with my friends</p>
-          <a href="#">Read more</a>
+          <a class="alert" href="#">Read more</a>
         </div>
      </div>
    </div>
@@ -72,7 +72,7 @@
      <div class="face face2">
         <div class="contant">
          <p>Stuff 2</p>
-          <a href="#">Read more</a>
+          <a class="alert" href="#">Read more</a>
         </div>
      </div>
    </div>
@@ -87,7 +87,7 @@
      <div class="face face2">
         <div class="contant">
          <p>Will be soon</p>
-          <a href="#">Read more</a>
+          <a class="alert" href="#">Read more</a>
         </div>
      </div>
    </div>
@@ -107,7 +107,7 @@
      <div class="face face2">
         <div class="contant">
          <p>Will be soon</p>
-          <a href="#">Read more</a>
+          <a onclick="alert('Wtf');return false" class="alert" href="#">Read more</a>
         </div>
      </div>
    </div>
@@ -122,7 +122,7 @@
      <div class="face face2">
         <div class="contant">
          <p>Will be soon</p>
-          <a href="#">Read more</a>
+          <a onclick="alert()" class="alert" href="#">Read more</a>
         </div>
      </div>
    </div>
@@ -137,11 +137,19 @@
      <div class="face face2">
         <div class="contant">
          <p>Will be soon</p>
-          <a href="#">Read more</a>
+          <a onclick="S" class="alert" href="#">Read more</a>
         </div>
      </div>
    </div>
  </div>
 </div>
+
+<script>
+  let S = $(document).ready(function () {
+    alert('' +
+      '<div class="alertm_h1">К сожалению, искомая информация пока отсутствует</div>' +
+      '<div class="alertm_text">Здравствуйте, я ваш тестировщик</div>');
+  })
+</script>
 </body>
 </html>
