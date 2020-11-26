@@ -252,7 +252,7 @@ body{
 @media screen and (max-width: 500px) {
   .cont .card .face {
     width: 120px;
-    height: 100px;
+    height: 140px;
     transition: 0.5s;
   }
 
