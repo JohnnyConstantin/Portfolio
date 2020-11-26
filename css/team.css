@@ -111,3 +111,25 @@ body{
 .cont .box:hover .contentBx{
   transform: translateZ(20px) scaleY(1 );
 }
+
+@media screen and (max-width: 916px){
+  .cont {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 460px){
+  .cont .box .imgBx img{
+    width: 350px;
+    height: 250px;
+  }
+
+  .cont .box{
+    width: 350px;
+    height: 250px;
+  }
+
+  .cont{
+    padding: 0 0;
+  }
+}
