@@ -98,7 +98,7 @@ label.menu__btn{
 
   list-style: none;
   background-color: black;
-  border: green 2px solid;
+  border-bottom: green 2px solid;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
 
   transition-duration: .25s;

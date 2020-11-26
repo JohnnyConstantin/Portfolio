@@ -196,11 +196,11 @@ body{
     height: 400px;
     padding-top: 200px;
   }
-  ul li span{
+  .blogs ul li span{
     font-size: 40px !important;
   }
 
-  ul li{
+  .blogs ul li{
   width: 70px;
   height: 70px;
 }
