@@ -29,7 +29,8 @@
 #menu__toggle:checked ~ .menu__box {
   visibility: visible;
   left: 0;
-  height: 100vh;
+  height: 30px;
+  width: 100%;
 }
 
 #menu__toggle:checked ~ .hamburger-menu{
@@ -38,6 +39,7 @@
 
 label.menu__btn{
   padding-top: 10px;
+  z-index: 100;
 }
 
 .menu__btn {
@@ -49,7 +51,7 @@ label.menu__btn{
   right: 20px;
 
   width: 26px;
-  height: 16px;
+  height: 10px;
 
   cursor: pointer;
   z-index: 1;
@@ -78,9 +80,12 @@ label.menu__btn{
 }
 
 .menu__box {
-  display: block;
+  content: inherit;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
   z-index: 4;
-  position: absolute;
+  position: fixed;
   visibility: hidden;
   top: 0;
   left: -100%;
@@ -89,7 +94,7 @@ label.menu__btn{
   height: border-box;
 
   margin: 0;
-  padding: 80px 0;
+  padding: 20px 0;
 
   list-style: none;
   background-color: black;
@@ -100,7 +105,7 @@ label.menu__btn{
 }
 
 .menu__item {
-  display: block;
+  display: flex;
   padding: 12px 24px;
 
   color: white;
@@ -152,12 +157,6 @@ label.menu__btn{
     visibility: hidden;
   }
 
-  #menu__toggle:checked ~ .menu__box {
-  visibility: visible;
-  left: 0;
-  height: 100vh;
-}
-
   .section__bg:before{
     content: '';
   position: absolute;
@@ -166,5 +165,12 @@ label.menu__btn{
   height:299px;
   background: linear-gradient(to right,darkgreen,black 50%);
   -webkit-mask: repeating-linear-gradient(45deg,transparent 0,transparent 10px,white 10px, white 50px)
+  }
+}
+
+@media screen and (max-width: 624px){
+  .menu__item {
+    font-size: 15px;
+    padding: 12px 10px;
   }
 }
